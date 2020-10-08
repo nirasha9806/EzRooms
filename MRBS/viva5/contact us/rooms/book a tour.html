@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book a Tour</title>
+<link rel="stylesheet" type="text/css" href="book a tour.css">
+</head>
+<body>
+		
+<body background = "img/light.jpg" >
+<form action="/action_page.php">
+  <div class="container">
+    <center><h1>Come & Join to Take a Tour</h1></center>
+    <p>Please fill in this form.</p>
+    
+	<div class= "col">
+    <label for="Name"><b>My Name is*</b></label>
+    <input type="text" placeholder="Enter Name" name="Name" required>
+	<br>
+
+    <label for="phone"><b>My phone number*</b></label>
+     <input type="tel" placeholder="Phone number is" name="phone" required>
+	 <br>
+    <label for="city"><b>I am interested in(Enter city)*</b></label>
+    <input type="text" placeholder="Enter city" name="city" required>
+	<br>
+	<label for="datetime"><b>Date and Time</b></label>
+    <input type="datetime-local" placeholder=" Enter date & time" >
+	
+	</div>
+    <div class= "col">
+	<label for="email"><b>My email address is*</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+	<br>
+	
+	<label for="Product"><b>Choose a interested product</b>
+	 <br>
+	<select>
+	<option value=""disabled selected>please choose</option>
+    <option value="Board">Board rooms</option>
+    <option value="Team">Team rooms</option>
+    <option value="Conference">Conference rooms</option>
+    <option value="Auditoriums">Auditoriums</option>
+	<option value="Training">Training rooms</option>
+	<option value="Interview">Interview rooms</option>
+	</label>
+	</select>
+	
+	<label for="comments"><b>Comments</b></label>
+    <textarea name="comment" >Comments</textarea>
+	
+	</div>
+	<p>
+	<label>
+      <input type="checkbox" checked="checked" name="remember">  I would like Ez Rooms to send me more great offers and notifications.
+    </label></p>
+	
+	
+	<center>
+    <button type="submit" class="book">BOOK MY TOUR</button>
+	</center>
+  </div>
+  </div>
+  
+</form>
+
+
+</body>
+</html>

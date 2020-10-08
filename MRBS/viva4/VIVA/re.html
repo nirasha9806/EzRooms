@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>re page</title>
+	<link rel="stylesheet" type="text/css" href="CSS/re.css">
+</head>
+
+<body>
+	 <div class ="reset">
+	 	<form action = "login.html" onsubmit = "return validation();">
+	 		<h2 align="center" style="color:#fff;">Reset password</h2>
+	 		<br><br>
+	 		<input type ="password" name="old" placeholder="Old Password" id ="old"><br><br>
+	 		<input type ="password" name="newPas" placeholder="New Password" id = "newPas"><br><br>
+	 		<input type="password" name="conNewPas" placeholder="Confirm New Password" id = "conNewPas"><br><br>
+	 		<br><br>
+	 		<input type="submit" name ="submit"value="save"/><br><br><br>
+	 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 		<a href="login.html" style="text-decoration:none;">Go back to home page</a><br><br>
+
+	 		</form>
+	 	</div>
+
+	 	<script type = "text/javascript">
+
+				function validation ()
+				{
+					var old = document.getElementById('old').value;
+					var newPas = document.getElementById('newPas').value;
+					var conNewPas = document.getElementById('conNewPas').value;
+
+					if (old == '' || newPas == '' || conNewPas == '' )
+					{
+						alert('All field Required !');
+						return false;
+					}
+
+					else if (newPas != conNewPas)
+					{
+						alert('Password Mismatch !');
+						return false;
+					}
+
+					else if (newPas == conNewPas)
+					{
+						alert('Password changed succesfully!');
+						return true;
+					}
+				}
+				
+		</script>
+		
+</body>
+</html>

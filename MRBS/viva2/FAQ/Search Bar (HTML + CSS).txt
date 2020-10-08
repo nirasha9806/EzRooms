@@ -1,0 +1,28 @@
+<center>
+	<input type = "text" class = "menu17"> <br> <input type = "submit" class = "menu18" value = "Search" onclick = "test()">
+</center>
+
+
+--------------------CSS for search--------------------------
+
+.menu17{
+	width:400px;
+	height:30px;
+	font-size:20px;
+	margin-bottom:5px;
+    font-family:cambria;
+}
+
+.menu18{
+	width:68px;
+	height:32px;
+	background-color: #cfefff;
+	border:none;
+	color:#0a3981;
+    font-family:cambria;
+	font-size:20px;
+	text-align:center;
+	margin-bottom:50px;
+}
+
+----------------------------------------------------------------

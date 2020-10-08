@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<title> Invoice - EzRooms </title>
+		<link rel="stylesheet" type="text/css" href="CSS/invoice.css">
+		<script src="JS/Script4.js"> </script>
+	
+	</head>
+	
+	<body>
+
+		<body background = "IMG/Bg1.jpg">
+
+		<!--- START OF HEADER --->
+		<div class = "div1">
+		
+			<ul class = "menu1">
+			
+				<li class = "menu3"><img src = "IMG/Logo1.jpg" class = "img1" id = "logo1"  alt = "Logo1"></li>
+				<li class = "menu2"><a id = "nota" onclick = "func2('nota')" class = "menu4">Logout</a></li>
+				<li class = "menu2"><a id = "nota" onclick = "func2('nota')" class = "menu4">User Profile</a></li>
+				<li class = "menu2"><a id = "nota" onclick = "func2('nota')" class = "menu4">Contact Us</a></li>
+				<li class = "menu2"><a id = "nota" onclick = "func2('nota')" class = "menu4">About Us</a></li>
+				<li class = "menu2"><a id = "nota" onclick = "func2('nota')" class = "menu4">Home</a></li>
+			
+			</ul>
+		
+		</div>
+		<!--- END OF HEADER --->
+		
+		<body>
+
+	<b>
+		<p class = "p1"> Here's your <font color = "black">Invoice</font> Now!</p>
+	</b>
+		<div class = "div12">
+
+			<table>
+				<tr>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<td colspan = "3">	
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<img src="IMG/Logo2.jpg" alt="Logo image" width="150" height="40"> </td>
+
+				</tr>
+			<!--div class = "div98"-->
+				<tr>
+					<td>
+						<br><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						No.10,Sri Lanka Padanama Mw,<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Independence Square,<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Colombo 7,<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Sri Lanka.<br>
+						<b><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						+94112345675<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						+94712132123
+						</b>						
+					</td>
+										<td>
+						<br><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Bill to:<br><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="text" size="35">,<br>,<br><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						____________________________,<br><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						____________________________,
+					</td>
+										<td>
+						<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Invoice Date:<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="text">,<br>
+						<br><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Invoice No:<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="text">,<br>
+						<!--_________________________,<br> -->
+					</td>
+				</tr>
+				<tr>
+				<br><br>
+
+				
+					<td colspan = "3">
+						<br><br>
+						<hr class = "horison1">
+						<br>
+
+						<div class = "div15"> Service 
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Amount(Rs.)
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+					<br>
+					<p class = "dotted1"> </p>
+
+					<br>
+					<div class = "p15"> Basic charge 
+					<input type = "text" class = "txt1">
+					</div>
+
+					<br>
+					<hr class = "dotted1"> </p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">	
+					<br>
+					<input type = "text" class = "txt3">
+
+					<input type = "text" class = "txt2">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+					<br><br>
+					<input type = "text" class = "txt3">
+
+					<input type = "text" class = "txt2">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+					<br><br>
+					<input type = "text" class = "txt3">
+
+					<input type = "text" class = "txt2">
+					</td>
+				</tr>
+			</table>
+
+		</div>
+		<input type= "submit" value="Download" class = "download" onclick="myFunction()">
+		
+		<div id="msg">Invoice is downloaded check your device </div>
+		
+		<!--- START OF SPACE FOR CONTENT ---
+		<div>
+			<h1> Invoice </h1>
+			<button class = "div2" onclick = "func1('user')"> Finish </button>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		</div>
+		 --- END OF SPACE FOR CONTENT --->
+		 <script>
+
+				
+				function myFunction()
+				{
+					var x = document.getElementById("msg");
+					x.className = "show";
+
+				}
+				
+		</script>
+		
+		
+		<!--- START OF FOOTER --->
+
+		<footer>
+			<div class = "div3">
+				<p class = "p1"> All rights reserved @2019</p>
+				<img src = "IMG/Logo2.png" class = "img2" alt = "Logo1">
+			</div>
+		</footer>
+
+		<!--- END OF FOOTER --->
+	
+	</body>
+
+</html>

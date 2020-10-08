@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>forget page</title>
+	<link rel="stylesheet" type="text/css" href="CSS/for.css">
+</head>
+
+<body>
+	 <div class ="forget">
+	 	<form>
+	 		<h2 align="center" style="color:#fff;">Forget password</h2>
+	 		<h5 style ="font-size:14px; color:yellow;">Enter email here that you used on your account.We send link on your email to reset your password</h5><br>
+	 		<input type ="email" name="username" placeholder="Enter your email"/><br><br><br>
+	 		<input type ="button" value="Send" onclick ="myFunction()"><br><br><br>
+	 		<a href="login.html" style="text-decoration:none;">Go back to home page</a><br><br>
+
+	 		<div id="msg">Link send on your Email successfully!</div>
+
+	 	</form>
+	 </div>
+
+	<script>
+
+				
+				function myFunction()
+				{
+					var x = document.getElementById("msg");
+					x.className = "show";
+
+				}
+				
+	</script>
+		
+</body>
+</html>

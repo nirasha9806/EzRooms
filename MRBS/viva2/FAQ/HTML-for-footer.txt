@@ -1,0 +1,16 @@
+		<!---START: FOOTER--->
+		<footer>
+			<div class = "footer">
+				<br>
+				<img src="IMG/Logo3.png" class="img3" alt="Logo4">
+				<img src="IMG/Logo4.png" class="img4" alt="Logo5">
+				<img src="IMG/Logo5.png" class="img5" alt="Logo6">
+				<img src="IMG/Logo6.png" class="img6" alt="Logo7">
+				<img src="IMG/Logo7.png" class="img7" alt="Logo8">
+				<img src="IMG/Logo8.png" class="img8" alt="Logo9">
+				<img src = "IMG/Logo2.png" class = "img2" alt = "Logo1"><br>
+				<p class="p1"> All rights reserved @2019,EZ rooms team</p>
+			</div>
+		</footer>
+
+		<!---END: FOOTER--->

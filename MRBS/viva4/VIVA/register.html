@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<title> SignUp - EzRooms  </title>
+		<link rel="stylesheet" type="text/css" href="CSS/register.css">
+		<script src="JS/register.js"> </script>
+		
+	</head>
+	<!--- START OF HEADER --->
+		<div class = "header">
+		
+			<ul class = "menu1">
+			
+				<li class = "menu3"><img src = "IMG/Logo2.png" class = "img1" alt = "Logo1"></li>
+				<li class = "menu2"><a class = "active1" href="../viva4/VIVA/register.html">Sign Up</a></li>
+				<li class = "menu2"><a class = "menu4" href="../../viva5/contact us/contact/book a tour.html">Book a Tour</a></li>
+				<li class = "menu2"><a class = "menu4" href="../../viva5/contact us/contact/Get in touch.html">Contact Us</a></li>
+				<li class = "menu2"><a class = "menu4"  href="../../viva2/FAQ/help.html">Help</a></li>
+				<li class = "menu2"><a class = "menu4"  href="../../viva1/home-page.html">Home</a></li>
+			
+			</ul>
+		
+		</div>
+		<!--- END OF HEADER --->
+
+	<body>
+		<b>
+			<p class = "p12"> Here's your <font color = "black">Registration</font> Now!</p>
+			</b>
+
+				<div class = "container">
+				<form action = "userprofile.html" onsubmit = "return validation();">
+
+						<br>
+
+						
+						<center><b><h2>Sign Up </b></h2></center>
+						<img src="IMG/7.png" class="person-logo">
+
+						<div class = "col">
+						<input type= "text" color = "black"class = "form_input" placeholder = "First name" id = "uname" required>
+						<br><br>
+						<input type= "text" class = "form_input" placeholder = "Last name" id = "lname" required>
+						<br><br>
+						<input type= "date" class = "form_input" placeholder = "DOB" id = "birthdate" required>
+						<br><br>
+						<input type= "text" class = "form_input" placeholder = "Phone number" id = "phoneNumber" >
+						<br><br>
+						<input type= "text" class = "form_input" placeholder = "Email Adderss" id = "email" required>
+						</div>
+						<div class = "col">
+						<input type= "password" class = "form_input" placeholder = "Password" id = "pwd" required>
+						<br><br>
+						<input type= "password" class = "form_input" placeholder = "Confirm Password" id = "CoNewPwd" required>
+						<br><br>
+						<input type= "text" class = "form_input" placeholder = "Company" id = "company">
+						<br><br>
+						<input type= "text" class = "form_input" placeholder = "Company Adderss" id = "companyAdd">
+						<br><br>
+						<input type="radio" name="gender" value="male">Male
+						<input type="radio" name="gender" value="female"> Female<br>
+						</div>
+						<br>
+						
+						<!--button id="login" onclick="login()" class="login">Log In</button-->
+						<button type= "submit" class = "signup" onclick = "signup()">Sign Up</button>
+						<br>
+						
+
+
+
+					</div>
+
+		<script type = "text/javascript">
+
+				function validation ()
+				{
+					
+					var pwd = document.getElementById('pwd').value;
+					var CoNewPwd = document.getElementById('CoNewPwd').value;
+
+					if (pwd == '' || CoNewPwd == '' )
+					{
+						alert('All field Required !');
+						return false;
+					}
+
+					else if (pwd != CoNewPwd)
+					{
+						alert('Password Mismatch !');
+						return false;
+					}
+
+					else if (pwd == CoNewPwd)
+					{
+						alert('Registration is succesfully!');
+						return true;
+					}
+				}
+				
+		</script>
+		<!--- START OF FOOTER --->
+		<footer>
+			<div class = "footer">
+				<br>
+				<img src="IMG/Logo3.png" class="img3" alt="Logo4">
+				<img src="IMG/Logo4.png" class="img4" alt="Logo5">
+				<img src="IMG/Logo5.png" class="img5" alt="Logo6">
+				<img src="IMG/Logo6.png" class="img6" alt="Logo7">
+				<img src="IMG/Logo7.png" class="img7" alt="Logo8">
+				<img src="IMG/Logo8.png" class="img8" alt="Logo9">
+				<img src = "IMG/Logo2.png" class = "img2" alt = "Logo1"><br>
+				<p class="p1"> All rights reserved @2019,EZ rooms team</p>
+			</div>
+		</footer>
+		<!--- END OF FOOTER --->
+		
+
+	</body>
+
+
+</html>
